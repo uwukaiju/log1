@@ -1,0 +1,209 @@
+[02:48:49] [main/INFO]: Loading Minecraft 1.18.1 with Fabric Loader 0.12.12
+[02:48:49] [ForkJoinPool-1-worker-1/WARN]: The mod "wolveswitharmor" contains invalid entries in its mod json:
+- Unsupported root entry "artist" at line 15 column 11
+[02:48:49] [ForkJoinPool-1-worker-2/WARN]: The mod "libcd" contains invalid entries in its mod json:
+- Unsupported root entry "licence" at line 9 column 12
+[02:48:49] [main/WARN]: Mod resolution failed
+[02:48:49] [main/INFO]: Immediate reason: [HARD_DEP_INCOMPATIBLE_PRESELECTED eldritch_mobs 1.10.1 {depends minecraft @ [1.18]}, ROOT_FORCELOAD_SINGLE eldritch_mobs 1.10.1]
+[02:48:49] [main/INFO]: Reason: [HARD_DEP eldritch_mobs 1.10.1 {depends minecraft @ [1.18]}]
+[02:48:49] [main/INFO]: SERVER environment disabled: [fabric-renderer-api-v1, fabric-keybindings-v0, iris, enchdesc, fabric-textures-v0, skinlayers, illuminations, fancymenu, fabric-screen-api-v1, fabric-renderer-indigo, fabric-blockrenderlayer-v1, durabilityviewer, sodium, fabric-renderer-registries-v1, fabric-models-v0, fabric-rendering-v0, loadmyresources, fallingleaves, fabric-key-binding-api-v1, fabric-rendering-v1, controlling, salutem]
+[02:48:49] [main/INFO]: Fix: add [], remove [], replace [[minecraft 1.18.1] -> add:minecraft 1.18 ([[1.18,1.18]])]
+[02:48:49] [main/ERROR]: Incompatible mod set!
+net.fabricmc.loader.impl.FormattedException: net.fabricmc.loader.impl.discovery.ModResolutionException: Mod resolution encountered an incompatible mod set!
+A potential solution has been determined:
+	 - Replace 'Minecraft' (minecraft) 1.18.1 with version 1.18.
+Unmet dependency listing:
+	 - Mod 'Eldritch Mobs' (eldritch_mobs) 1.10.1 requires version 1.18 of 'Minecraft' (minecraft), but only the wrong version is present: 1.18.1!
+		 - 'Minecraft' (minecraft) 1.18.1 is an environment reference and usually requires installation or launcher changes to adjust
+Inactive mods:
+	 - mod 'Controlling For Fabric' (controlling) 9.0.4, reason: wrong environment (client/server only)
+	 - mod 'Giselbaers Durability Viewer' (durabilityviewer) 1.18-fabric0.43.1-1.10.2, reason: wrong environment (client/server only)
+	 - mod 'EnchantmentDescriptions' (enchdesc) 8.0.3, reason: wrong environment (client/server only)
+	 - mod 'Fabric API' (fabric) 0.44.0+1.18, reason: newer version active
+	 - mod 'Falling Leaves' (fallingleaves) 1.9.0+1.18.1, reason: wrong environment (client/server only)
+	 - mod 'FancyMenu' (fancymenu) 2.5.2, reason: wrong environment (client/server only)
+	 - mod 'Illuminations' (illuminations) 1.10.2, reason: wrong environment (client/server only)
+	 - mod 'Iris' (iris) 1.1.3, reason: wrong environment (client/server only)
+	 - mod 'Load My Resources' (loadmyresources) 1.0.1, reason: wrong environment (client/server only)
+	 - 'Minecraft' (minecraft) 1.18.1, reason: to replace
+	 - mod 'Salutem' (salutem) 1.2.2, reason: wrong environment (client/server only)
+	 - mod '3d Skin Layers' (skinlayers) 1.3.1, reason: wrong environment (client/server only)
+	 - mod 'Sodium' (sodium) 0.4.0-alpha5+build.9, reason: wrong environment (client/server only)
+	 - mod 'jankson' (blue_endless_jankson) 1.2.1, reason: same version active
+	 - mod 'jankson' (blue_endless_jankson) 1.2.1, reason: same version active
+	 - mod 'Cardinal Components API (base)' (cardinal-components-base) 4.0.0-alpha.1+21w37a, reason: newer version active
+	 - mod 'Cardinal Components API (entities)' (cardinal-components-entity) 4.0.0-alpha.1+21w37a, reason: newer version active
+	 - mod 'Cloth Basic Math' (cloth-basic-math) 0.5.1, reason: newer version active
+	 - mod 'Cloth Config v6' (cloth-config) 6.0.42, reason: newer version active
+	 - mod 'Cloth Config v6' (cloth-config) 6.1.48, reason: same version active
+	 - mod 'Cloth Config v4' (cloth-config2) 5.0.34, reason: unknown
+	 - mod 'Cloth Config v5' (cloth-config2) 5.0.38, reason: unknown
+	 - mod 'core' (com_electronwill_night-config_core) 3.6.3, reason: newer version active
+	 - mod 'toml' (com_electronwill_night-config_toml) 3.6.3, reason: newer version active
+	 - mod 'Fabric API Base' (fabric-api-base) 0.4.1+b4f4f6cd65, reason: newer version active
+	 - mod 'Fabric API Lookup API (v1)' (fabric-api-lookup-api-v1) 1.4.0+16d92c47c8, reason: newer version active
+	 - mod 'Fabric Biome API (v1)' (fabric-biome-api-v1) 6.0.1+ded849a9c8, reason: newer version active
+	 - mod 'Fabric BlockRenderLayer Registration (v1)' (fabric-blockrenderlayer-v1) 1.1.9+3ac43d9565, reason: wrong environment (client/server only)
+	 - mod 'Fabric BlockRenderLayer Registration (v1)' (fabric-blockrenderlayer-v1) 1.1.9+3ac43d95c8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Command API (v1)' (fabric-command-api-v1) 1.1.6+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Commands (v0)' (fabric-commands-v0) 0.2.5+b4f4f6cdc8, reason: newer version active
+	 - mod 'Fabric Containers (v0)' (fabric-containers-v0) 0.1.18+d154e2c6c8, reason: newer version active
+	 - mod 'Fabric Content Registries (v0)' (fabric-content-registries-v0) 0.4.5+6f53a73dc8, reason: newer version active
+	 - mod 'Fabric Crash Report Info (v1)' (fabric-crash-report-info-v1) 0.1.8+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Dimensions API (v1)' (fabric-dimensions-v1) 2.1.7+43d29571c8, reason: newer version active
+	 - mod 'Fabric Entity Events (v1)' (fabric-entity-events-v1) 1.4.5+6b21378ac8, reason: newer version active
+	 - mod 'Fabric Events Interaction (v0)' (fabric-events-interaction-v0) 0.4.16+bfa23f17c8, reason: newer version active
+	 - mod 'Fabric Events Lifecycle (v0)' (fabric-events-lifecycle-v0) 0.2.6+b4f4f6cdc8, reason: newer version active
+	 - mod 'Fabric Game Rule API (v1)' (fabric-game-rule-api-v1) 1.0.10+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Item API (v1)' (fabric-item-api-v1) 1.3.0+691a79b5c8, reason: newer version active
+	 - mod 'Fabric Item Groups (v0)' (fabric-item-groups-v0) 0.3.3+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Key Binding API (v1)' (fabric-key-binding-api-v1) 1.0.8+c8aba2f3c8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Key Binding API (v1)' (fabric-key-binding-api-v1) 1.0.8+c8aba2f365, reason: wrong environment (client/server only)
+	 - mod 'Fabric Key Bindings (v0)' (fabric-keybindings-v0) 0.2.6+b4f4f6cdc8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Key Bindings (v0)' (fabric-keybindings-v0) 0.2.6+b4f4f6cd65, reason: wrong environment (client/server only)
+	 - mod 'Fabric Lifecycle Events (v1)' (fabric-lifecycle-events-v1) 1.4.10+c15ca335c8, reason: newer version active
+	 - mod 'Fabric Loot Tables (v1)' (fabric-loot-tables-v1) 1.0.8+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Mining Level API (v1)' (fabric-mining-level-api-v1) 1.0.3+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Mining Levels (v0)' (fabric-mining-levels-v0) 0.1.7+b4f4f6cdc8, reason: newer version active
+	 - mod 'Fabric Models (v0)' (fabric-models-v0) 0.3.3+3ac43d9565, reason: wrong environment (client/server only)
+	 - mod 'Fabric Models (v0)' (fabric-models-v0) 0.3.3+3ac43d95c8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Networking API (v1)' (fabric-networking-api-v1) 1.0.18+3ac43d9565, reason: newer version active
+	 - mod 'Fabric Networking (v0)' (fabric-networking-v0) 0.3.5+b4f4f6cdc8, reason: newer version active
+	 - mod 'Fabric Object Builder API (v1)' (fabric-object-builder-api-v1) 1.11.0+3b82842ec8, reason: newer version active
+	 - mod 'Fabric Object Builders (v0)' (fabric-object-builders-v0) 0.7.8+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Particles (v1)' (fabric-particles-v1) 0.2.9+526dc1acc8, reason: newer version active
+	 - mod 'Fabric Registry Sync (v0)' (fabric-registry-sync-v0) 0.8.5+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Renderer API (v1)' (fabric-renderer-api-v1) 0.4.9+3ac43d95c8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Renderer API (v1)' (fabric-renderer-api-v1) 0.4.10+b0b66fc365, reason: wrong environment (client/server only)
+	 - mod 'Fabric Renderer - Indigo' (fabric-renderer-indigo) 0.4.12+3ac43d95c8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Renderer - Indigo' (fabric-renderer-indigo) 0.4.13+b0b66fc365, reason: wrong environment (client/server only)
+	 - mod 'Fabric Renderer Registries (v1)' (fabric-renderer-registries-v1) 3.2.7+b4f4f6cdc8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Renderer Registries (v1)' (fabric-renderer-registries-v1) 3.2.7+b4f4f6cd65, reason: wrong environment (client/server only)
+	 - mod 'Fabric Rendering Data Attachment (v1)' (fabric-rendering-data-attachment-v1) 0.3.4+7242e9d7c8, reason: newer version active
+	 - mod 'Fabric Rendering Fluids (v1)' (fabric-rendering-fluids-v1) 0.1.18+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Rendering (v0)' (fabric-rendering-v0) 1.1.9+b4f4f6cd65, reason: wrong environment (client/server only)
+	 - mod 'Fabric Rendering (v0)' (fabric-rendering-v0) 1.1.9+b4f4f6cdc8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Rendering (v1)' (fabric-rendering-v1) 1.10.3+6b21378ac8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Rendering (v1)' (fabric-rendering-v1) 1.10.3+6b21378a65, reason: wrong environment (client/server only)
+	 - mod 'Fabric Resource Loader (v0)' (fabric-resource-loader-v0) 0.4.11+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Screen API (v1)' (fabric-screen-api-v1) 1.0.7+3ac43d9565, reason: wrong environment (client/server only)
+	 - mod 'Fabric Screen API (v1)' (fabric-screen-api-v1) 1.0.7+3ac43d95c8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Screen Handler API (v1)' (fabric-screen-handler-api-v1) 1.1.11+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Structure API (v1)' (fabric-structure-api-v1) 2.0.8+295197a7c8, reason: newer version active
+	 - mod 'Fabric Tag Extensions (v0)' (fabric-tag-extensions-v0) 1.2.5+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Textures (v0)' (fabric-textures-v0) 1.0.9+3ac43d9565, reason: wrong environment (client/server only)
+	 - mod 'Fabric Textures (v0)' (fabric-textures-v0) 1.0.9+3ac43d95c8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Tool Attribute API (v1)' (fabric-tool-attribute-api-v1) 1.3.4+7de09f55c8, reason: newer version active
+	 - mod 'Fabric Transfer API (v1)' (fabric-transfer-api-v1) 1.5.5+b4f4f6cdc8, reason: newer version active
+	 - mod 'Kyrpt Config' (kyrptconfig) 1.2.4-1.18, reason: newer version active
+	 - mod 'OmegaConfig' (omega-config) 1.0.8, reason: newer version active
+	 - mod 'OmegaConfig' (omega-config) 1.0.8, reason: newer version active
+	 - mod 'oωo' (owo) 0.3.14+1.18, reason: newer version active
+	 - mod 'Pal' (playerabilitylib) 1.3.0, reason: newer version active
+	 - mod 'Reborn Core' (reborncore) 5.1.0-beta.5, reason: same version active
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:189) ~[fabric-loader-0.12.12.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142) ~[fabric-loader-0.12.12.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:71) [fabric-loader-0.12.12.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.12.12.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:66) [fabric-loader-0.12.12.jar:?]
+Caused by: net.fabricmc.loader.impl.discovery.ModResolutionException: Mod resolution encountered an incompatible mod set!
+A potential solution has been determined:
+	 - Replace 'Minecraft' (minecraft) 1.18.1 with version 1.18.
+Unmet dependency listing:
+	 - Mod 'Eldritch Mobs' (eldritch_mobs) 1.10.1 requires version 1.18 of 'Minecraft' (minecraft), but only the wrong version is present: 1.18.1!
+		 - 'Minecraft' (minecraft) 1.18.1 is an environment reference and usually requires installation or launcher changes to adjust
+Inactive mods:
+	 - mod 'Controlling For Fabric' (controlling) 9.0.4, reason: wrong environment (client/server only)
+	 - mod 'Giselbaers Durability Viewer' (durabilityviewer) 1.18-fabric0.43.1-1.10.2, reason: wrong environment (client/server only)
+	 - mod 'EnchantmentDescriptions' (enchdesc) 8.0.3, reason: wrong environment (client/server only)
+	 - mod 'Fabric API' (fabric) 0.44.0+1.18, reason: newer version active
+	 - mod 'Falling Leaves' (fallingleaves) 1.9.0+1.18.1, reason: wrong environment (client/server only)
+	 - mod 'FancyMenu' (fancymenu) 2.5.2, reason: wrong environment (client/server only)
+	 - mod 'Illuminations' (illuminations) 1.10.2, reason: wrong environment (client/server only)
+	 - mod 'Iris' (iris) 1.1.3, reason: wrong environment (client/server only)
+	 - mod 'Load My Resources' (loadmyresources) 1.0.1, reason: wrong environment (client/server only)
+	 - 'Minecraft' (minecraft) 1.18.1, reason: to replace
+	 - mod 'Salutem' (salutem) 1.2.2, reason: wrong environment (client/server only)
+	 - mod '3d Skin Layers' (skinlayers) 1.3.1, reason: wrong environment (client/server only)
+	 - mod 'Sodium' (sodium) 0.4.0-alpha5+build.9, reason: wrong environment (client/server only)
+	 - mod 'jankson' (blue_endless_jankson) 1.2.1, reason: same version active
+	 - mod 'jankson' (blue_endless_jankson) 1.2.1, reason: same version active
+	 - mod 'Cardinal Components API (base)' (cardinal-components-base) 4.0.0-alpha.1+21w37a, reason: newer version active
+	 - mod 'Cardinal Components API (entities)' (cardinal-components-entity) 4.0.0-alpha.1+21w37a, reason: newer version active
+	 - mod 'Cloth Basic Math' (cloth-basic-math) 0.5.1, reason: newer version active
+	 - mod 'Cloth Config v6' (cloth-config) 6.0.42, reason: newer version active
+	 - mod 'Cloth Config v6' (cloth-config) 6.1.48, reason: same version active
+	 - mod 'Cloth Config v4' (cloth-config2) 5.0.34, reason: unknown
+	 - mod 'Cloth Config v5' (cloth-config2) 5.0.38, reason: unknown
+	 - mod 'core' (com_electronwill_night-config_core) 3.6.3, reason: newer version active
+	 - mod 'toml' (com_electronwill_night-config_toml) 3.6.3, reason: newer version active
+	 - mod 'Fabric API Base' (fabric-api-base) 0.4.1+b4f4f6cd65, reason: newer version active
+	 - mod 'Fabric API Lookup API (v1)' (fabric-api-lookup-api-v1) 1.4.0+16d92c47c8, reason: newer version active
+	 - mod 'Fabric Biome API (v1)' (fabric-biome-api-v1) 6.0.1+ded849a9c8, reason: newer version active
+	 - mod 'Fabric BlockRenderLayer Registration (v1)' (fabric-blockrenderlayer-v1) 1.1.9+3ac43d9565, reason: wrong environment (client/server only)
+	 - mod 'Fabric BlockRenderLayer Registration (v1)' (fabric-blockrenderlayer-v1) 1.1.9+3ac43d95c8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Command API (v1)' (fabric-command-api-v1) 1.1.6+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Commands (v0)' (fabric-commands-v0) 0.2.5+b4f4f6cdc8, reason: newer version active
+	 - mod 'Fabric Containers (v0)' (fabric-containers-v0) 0.1.18+d154e2c6c8, reason: newer version active
+	 - mod 'Fabric Content Registries (v0)' (fabric-content-registries-v0) 0.4.5+6f53a73dc8, reason: newer version active
+	 - mod 'Fabric Crash Report Info (v1)' (fabric-crash-report-info-v1) 0.1.8+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Dimensions API (v1)' (fabric-dimensions-v1) 2.1.7+43d29571c8, reason: newer version active
+	 - mod 'Fabric Entity Events (v1)' (fabric-entity-events-v1) 1.4.5+6b21378ac8, reason: newer version active
+	 - mod 'Fabric Events Interaction (v0)' (fabric-events-interaction-v0) 0.4.16+bfa23f17c8, reason: newer version active
+	 - mod 'Fabric Events Lifecycle (v0)' (fabric-events-lifecycle-v0) 0.2.6+b4f4f6cdc8, reason: newer version active
+	 - mod 'Fabric Game Rule API (v1)' (fabric-game-rule-api-v1) 1.0.10+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Item API (v1)' (fabric-item-api-v1) 1.3.0+691a79b5c8, reason: newer version active
+	 - mod 'Fabric Item Groups (v0)' (fabric-item-groups-v0) 0.3.3+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Key Binding API (v1)' (fabric-key-binding-api-v1) 1.0.8+c8aba2f3c8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Key Binding API (v1)' (fabric-key-binding-api-v1) 1.0.8+c8aba2f365, reason: wrong environment (client/server only)
+	 - mod 'Fabric Key Bindings (v0)' (fabric-keybindings-v0) 0.2.6+b4f4f6cdc8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Key Bindings (v0)' (fabric-keybindings-v0) 0.2.6+b4f4f6cd65, reason: wrong environment (client/server only)
+	 - mod 'Fabric Lifecycle Events (v1)' (fabric-lifecycle-events-v1) 1.4.10+c15ca335c8, reason: newer version active
+	 - mod 'Fabric Loot Tables (v1)' (fabric-loot-tables-v1) 1.0.8+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Mining Level API (v1)' (fabric-mining-level-api-v1) 1.0.3+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Mining Levels (v0)' (fabric-mining-levels-v0) 0.1.7+b4f4f6cdc8, reason: newer version active
+	 - mod 'Fabric Models (v0)' (fabric-models-v0) 0.3.3+3ac43d9565, reason: wrong environment (client/server only)
+	 - mod 'Fabric Models (v0)' (fabric-models-v0) 0.3.3+3ac43d95c8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Networking API (v1)' (fabric-networking-api-v1) 1.0.18+3ac43d9565, reason: newer version active
+	 - mod 'Fabric Networking (v0)' (fabric-networking-v0) 0.3.5+b4f4f6cdc8, reason: newer version active
+	 - mod 'Fabric Object Builder API (v1)' (fabric-object-builder-api-v1) 1.11.0+3b82842ec8, reason: newer version active
+	 - mod 'Fabric Object Builders (v0)' (fabric-object-builders-v0) 0.7.8+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Particles (v1)' (fabric-particles-v1) 0.2.9+526dc1acc8, reason: newer version active
+	 - mod 'Fabric Registry Sync (v0)' (fabric-registry-sync-v0) 0.8.5+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Renderer API (v1)' (fabric-renderer-api-v1) 0.4.9+3ac43d95c8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Renderer API (v1)' (fabric-renderer-api-v1) 0.4.10+b0b66fc365, reason: wrong environment (client/server only)
+	 - mod 'Fabric Renderer - Indigo' (fabric-renderer-indigo) 0.4.12+3ac43d95c8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Renderer - Indigo' (fabric-renderer-indigo) 0.4.13+b0b66fc365, reason: wrong environment (client/server only)
+	 - mod 'Fabric Renderer Registries (v1)' (fabric-renderer-registries-v1) 3.2.7+b4f4f6cdc8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Renderer Registries (v1)' (fabric-renderer-registries-v1) 3.2.7+b4f4f6cd65, reason: wrong environment (client/server only)
+	 - mod 'Fabric Rendering Data Attachment (v1)' (fabric-rendering-data-attachment-v1) 0.3.4+7242e9d7c8, reason: newer version active
+	 - mod 'Fabric Rendering Fluids (v1)' (fabric-rendering-fluids-v1) 0.1.18+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Rendering (v0)' (fabric-rendering-v0) 1.1.9+b4f4f6cd65, reason: wrong environment (client/server only)
+	 - mod 'Fabric Rendering (v0)' (fabric-rendering-v0) 1.1.9+b4f4f6cdc8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Rendering (v1)' (fabric-rendering-v1) 1.10.3+6b21378ac8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Rendering (v1)' (fabric-rendering-v1) 1.10.3+6b21378a65, reason: wrong environment (client/server only)
+	 - mod 'Fabric Resource Loader (v0)' (fabric-resource-loader-v0) 0.4.11+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Screen API (v1)' (fabric-screen-api-v1) 1.0.7+3ac43d9565, reason: wrong environment (client/server only)
+	 - mod 'Fabric Screen API (v1)' (fabric-screen-api-v1) 1.0.7+3ac43d95c8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Screen Handler API (v1)' (fabric-screen-handler-api-v1) 1.1.11+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Structure API (v1)' (fabric-structure-api-v1) 2.0.8+295197a7c8, reason: newer version active
+	 - mod 'Fabric Tag Extensions (v0)' (fabric-tag-extensions-v0) 1.2.5+3ac43d95c8, reason: newer version active
+	 - mod 'Fabric Textures (v0)' (fabric-textures-v0) 1.0.9+3ac43d9565, reason: wrong environment (client/server only)
+	 - mod 'Fabric Textures (v0)' (fabric-textures-v0) 1.0.9+3ac43d95c8, reason: wrong environment (client/server only)
+	 - mod 'Fabric Tool Attribute API (v1)' (fabric-tool-attribute-api-v1) 1.3.4+7de09f55c8, reason: newer version active
+	 - mod 'Fabric Transfer API (v1)' (fabric-transfer-api-v1) 1.5.5+b4f4f6cdc8, reason: newer version active
+	 - mod 'Kyrpt Config' (kyrptconfig) 1.2.4-1.18, reason: newer version active
+	 - mod 'OmegaConfig' (omega-config) 1.0.8, reason: newer version active
+	 - mod 'OmegaConfig' (omega-config) 1.0.8, reason: newer version active
+	 - mod 'oωo' (owo) 0.3.14+1.18, reason: newer version active
+	 - mod 'Pal' (playerabilitylib) 1.3.0, reason: newer version active
+	 - mod 'Reborn Core' (reborncore) 5.1.0-beta.5, reason: same version active
+	at net.fabricmc.loader.impl.discovery.ModResolver.findCompatibleSet(ModResolver.java:159) ~[fabric-loader-0.12.12.jar:?]
+	at net.fabricmc.loader.impl.discovery.ModResolver.resolve(ModResolver.java:45) ~[fabric-loader-0.12.12.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.setup(FabricLoaderImpl.java:224) ~[fabric-loader-0.12.12.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:187) ~[fabric-loader-0.12.12.jar:?]
+	... 8 more
